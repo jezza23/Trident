@@ -636,7 +636,7 @@ uint32_t find_posix_check(void) {
 		case iPad33_iOS933: return 0x3e;
 		case iPod51_iOS932: return 0x3e;
         case iPad31_iOS932: return 0x3e;
-        case iPhone54_iOS934: 0x3e;
+        case iPhone54_iOS934: return 0x3e;
 		default: abort();
 	}
 }
